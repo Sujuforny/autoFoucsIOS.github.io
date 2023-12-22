@@ -56,10 +56,10 @@
     var closeButton = document.getElementById("close-search");
     var searchBox = document.getElementById("search-box");
     var searchInput = document.getElementById("search-input");
-
+    openButton.onclick = function () {
         searchBox.style.display = "block";
         searchInput.focus();
-
+    }
     closeButton.onclick = function () {
         searchBox.style.display = "none";
     }
